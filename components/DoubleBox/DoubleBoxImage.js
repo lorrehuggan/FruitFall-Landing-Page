@@ -57,8 +57,8 @@ export const GridImage = styled(Image)`
 export default function DoubleBox({ image, image2 }) {
   return (
     <Wrapper>
-      <GridImage src={image} layout="responsive" />
-      <GridImage src={image2} layout="responsive" />
+      <Image src={image} layout="responsive" objectFit="cover" alt="fruit" />
+      <Image src={image2} layout="responsive" objectFit="cover" alt="fruit" />
     </Wrapper>
   );
 }

@@ -66,7 +66,7 @@ export default function DoubleBox({ image, header, body }) {
         </InfoBox>
       </Container>
 
-      <GridImage src={image} layout="responsive" />
+      <Image src={image} layout="responsive" objectFit="cover" alt="fruit" />
     </Wrapper>
   );
 }

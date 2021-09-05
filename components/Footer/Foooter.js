@@ -5,12 +5,13 @@ import {
   AiFillTwitterCircle,
   AiFillInstagram,
 } from 'react-icons/ai';
+import { FaPinterest } from 'react-icons/fa';
 
 export const Wrapper = styled.section`
   width: 100%;
   height: 30rem;
   ${flex}
-  background-color: #F80C17;
+  background-color: #F976A7;
 `;
 
 export const Header = styled.h2`
@@ -26,8 +27,14 @@ export const Nav = styled.ul`
 export const Item = styled.li`
   list-style: none;
   font-size: ${FontSize.body};
+  font-weight: bold;
   margin: 3rem 0rem;
   color: #ffffff;
+  transition: 0.3s ease color;
+  cursor: pointer;
+  :hover {
+    color: #330a19;
+  }
 `;
 
 export const Socials = styled.div`
@@ -37,19 +44,52 @@ export const Socials = styled.div`
   color: #ffffff;
 `;
 
+export const Facebook = styled(AiFillFacebook)`
+  transition: 0.3s ease color;
+  cursor: pointer;
+  :hover {
+    color: #330a19;
+  }
+`;
+
+export const Twitter = styled(AiFillTwitterCircle)`
+  transition: 0.3s ease color;
+  cursor: pointer;
+  :hover {
+    color: #330a19;
+  }
+`;
+
+export const Instagram = styled(AiFillInstagram)`
+  transition: 0.3s ease color;
+  cursor: pointer;
+  :hover {
+    color: #330a19;
+  }
+`;
+
+export const Pinterest = styled(FaPinterest)`
+  transition: 0.3s ease color;
+  cursor: pointer;
+  :hover {
+    color: #330a19;
+  }
+`;
+
 export default function Footer() {
   return (
     <Wrapper>
-      <Header>FRUIT TREE</Header>
+      <Header>FRUIT FALL</Header>
       <Nav justify="space-between" direction="row">
         <Item>About</Item>
         <Item>Services</Item>
         <Item>Projects</Item>
       </Nav>
       <Socials justify="space-between" direction="row">
-        <AiFillFacebook />
-        <AiFillInstagram />
-        <AiFillTwitterCircle />
+        <Facebook />
+        <Instagram />
+        <Twitter />
+        <Pinterest />
       </Socials>
     </Wrapper>
   );

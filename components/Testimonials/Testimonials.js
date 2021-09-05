@@ -40,6 +40,7 @@ export const ProfileBody = styled.p`
 export const ProfileName = styled.h4`
   font-size: ${FontSize.bodyBig};
   margin-bottom: 0.5rem;
+  font-family: 'Abril Fatface', cursive;
 `;
 
 export const ProfilePos = styled.p`
@@ -51,7 +52,7 @@ export const ProfileHeader = styled.h2`
   font-size: ${FontSize.bodyBig};
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   color: grey;
 `;
 

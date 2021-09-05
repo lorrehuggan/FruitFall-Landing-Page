@@ -35,7 +35,6 @@ export default function Hero() {
         <Nav />
         <Container>
           <Header>Creating Since The Start</Header>
-          <Arrow />
         </Container>
       </div>
     </Wrapper>

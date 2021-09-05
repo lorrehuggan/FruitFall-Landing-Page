@@ -12,7 +12,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  color: #242424;
+  color: #212121;
   overflow-x: hidden;
   
   

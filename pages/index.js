@@ -37,7 +37,7 @@ export default function Home() {
         <HeadTag title="home" description="my description" />
         <Hero />
         <DoubleBox
-          image={Camera}
+          image={Lemon}
           header="Transform your brand"
           body="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable."
         />

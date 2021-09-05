@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   background-color: #3fc0fe;
-  background-image: url('../../public/assets/image/hero.jpg');
+  background-image: url('../../public/assets/image/cherry.jpg');
   background-size: cover;
-  background-position: center bottom;
+  background-position: 0% 50%;
 }
