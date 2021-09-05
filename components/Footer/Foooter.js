@@ -16,6 +16,7 @@ export const Wrapper = styled.section`
 
 export const Header = styled.h2`
   font-size: ${FontSize.header};
+  font-family: 'Abril Fatface', cursive;
   color: #ffffff;
 `;
 
